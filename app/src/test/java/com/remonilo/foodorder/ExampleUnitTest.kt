@@ -1,4 +1,4 @@
-package com.remonilo.marketsiswa
+package com.remonilo.foodorder
 
 import org.junit.Test
 

@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MarketSiswa"
+rootProject.name = "FoodOrder"
 include(":app")
  

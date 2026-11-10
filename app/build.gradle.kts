@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.remonilo.marketsiswa"
+    namespace = "com.remonilo.foodorder"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.remonilo.marketsiswa"
+        applicationId = "com.remonilo.foodorder"
         minSdk = 24
         targetSdk = 37
         versionCode = 1
@@ -51,4 +51,7 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
+    implementation("androidx.compose.material:material-icons-core:1.7.8")
+    implementation("androidx.navigation:navigation-compose:2.9.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.9.4")
 }
